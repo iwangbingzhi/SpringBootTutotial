@@ -1,0 +1,6 @@
+#random属性，在yml中可以使用中文不会出现乱码
+user:
+  id : ${random.long}
+  age : ${random.int[1,200]}
+  desc : 王炳智yml方式:${random.value}
+  uuid : ${random.uuid}
