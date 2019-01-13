@@ -22,6 +22,7 @@
     <modules>
         <module>demo1</module>
         <module>demo2</module>
+        <module>demo3</module>
     </modules>
 
 <dependencyManagement>
@@ -31,9 +32,16 @@
             <artifactId>demo1</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
         <dependency>
             <groupId>com.iwbz</groupId>
             <artifactId>demo2</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.iwbz</groupId>
+            <artifactId>demo3</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!-- MySQL 连接驱动依赖 -->
