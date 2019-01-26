@@ -10,7 +10,6 @@ import java.util.Map;
 
 @RestController
 public class ExceptionController {
-
     @GetMapping("/test1")
     public String test1(Integer num){
         if (num == null){

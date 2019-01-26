@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+//异常处理模板实体
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
