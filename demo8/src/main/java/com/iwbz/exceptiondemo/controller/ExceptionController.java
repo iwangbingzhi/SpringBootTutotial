@@ -11,7 +11,7 @@ import java.util.Map;
 @RestController
 public class ExceptionController {
 
-    //只为了demo演示错误才对num进行为空的处理
+    //只为了demo演示错误才对num进为空的处理
     @GetMapping("/test1")
     public String test1(Integer num){
         if (num == null){
